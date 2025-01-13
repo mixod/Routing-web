@@ -1,0 +1,46 @@
+.Header {
+  height: 2.5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  background-color: #162171;
+}
+.Header-info {
+  display: none;
+}
+.social-media {
+  display: grid;
+  grid-column: 2/3;
+  align-items: center;
+}
+.social-media ul {
+  display: flex;
+  gap: 3%;
+}
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+@media screen and (min-width: 377px) {
+}
+@media screen and (min-width: 764px) {
+  .Header {
+    grid-template-columns: 15% 36% 34% 15%;
+  }
+  .Header-info {
+    display: flex;
+    grid-column: 2/3;
+    align-items: center;
+    gap: 1%;
+  }
+  .social-media {
+    grid-column: 3/4;
+
+    align-items: center;
+  }
+  .social-media ul {
+    gap: 12%;
+    margin-left: 75%;
+  }
+}
