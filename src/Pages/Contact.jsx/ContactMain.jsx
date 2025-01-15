@@ -34,7 +34,7 @@ function ContactMain() {
           </div>
 
           <div>
-            <b style={{ color: "black" }}>Visit Us</b>
+            <b style={{ color: "black" }}>Mail Us</b>
           </div>
 
           <div> info@subhabihani.com.np</div>
