@@ -1,0 +1,27 @@
+.image {
+  background-image: url("public/image/back-img.png");
+  background-size: cover;
+  height: 38rem;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.Heading {
+  color: #00a0e8;
+  font-family: "Montserrat", sans-serif;
+}
+.sub-heading {
+  color: #162171;
+  font-family: "Montserrat", sans-serif;
+}
+.Paragraph {
+  font-family: "Open Sans", sans-serif;
+  color: #707070;
+  line-height: 1.75;
+  font-size: large;
+}
+.mainhome {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 15px;
+}

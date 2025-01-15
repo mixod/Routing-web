@@ -3,7 +3,9 @@
   width: 100%;
   display: grid;
   grid-template-columns: 10% 90%;
-  background-color: #162171;
+  background-color: hsl(233, 67%, 26%);
+
+  top: 0%;
 }
 .Header-info {
   display: none;
