@@ -25,3 +25,14 @@
   padding: 50px;
   gap: 15px;
 }
+.sub-heading {
+  font-size: large;
+}
+@media screen and (min-width: 764px) {
+  .sub-heading {
+    font-size: xx-large;
+  }
+  .mainhome {
+    padding: 100px;
+  }
+}
