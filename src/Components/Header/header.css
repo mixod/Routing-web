@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 10% 90%;
   background-color: hsl(233, 67%, 26%);
-
+  position: fixed;
   top: 0%;
 }
 .Header-info {

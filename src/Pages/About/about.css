@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
   height: 11rem;
+  margin-top: 6.5rem;
 }
 .description {
   display: flex;

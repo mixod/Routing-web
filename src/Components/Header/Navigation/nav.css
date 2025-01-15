@@ -5,7 +5,8 @@
   width: 100%;
   box-shadow: 8px 6px 6px gray;
   background-color: #ffffff;
-  position: relative;
+  position: fixed;
+  top: 2.5rem;
 }
 .nav-links {
   display: none;
