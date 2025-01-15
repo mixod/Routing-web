@@ -10,6 +10,7 @@ function AboutMain() {
               Subha Bihani Digital Media Pvt. Ltd
             </h3>
           </div>
+          <div className="line"></div>
           <div>
             <p className="Paragraph">
               Subha Bihani Digital Media PVT. LTD is a results-driven digital

@@ -10,7 +10,7 @@
   background-image: url("public/image/header-bg-5.jpg");
   background-size: cover;
   background-position: center;
-  height: 7rem;
+  height: 11rem;
 }
 .description {
   display: flex;
@@ -28,6 +28,12 @@ img {
 
   align-items: center;
 }
+.line {
+  width: 115px;
+  height: 3px;
+  background-color: #162171;
+}
+
 @media screen and (min-width: 997px) {
   .about-description-main {
     display: flex;

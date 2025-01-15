@@ -1,0 +1,12 @@
+.line {
+  width: 115px;
+  height: 3px;
+  background-color: #162171;
+}
+.top-portfolio-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
