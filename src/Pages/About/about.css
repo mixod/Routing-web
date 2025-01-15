@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   padding: 53px;
-  color: white;
+  color: #00ff53;
   justify-content: center;
   align-items: center;
+  font-size: xxx-large;
 }
 .about-img {
   background-image: url("public/image/header-bg-5.jpg");

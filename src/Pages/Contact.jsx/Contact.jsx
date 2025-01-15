@@ -1,3 +1,5 @@
+import ContactMain from "./ContactMain";
+
 function Contact() {
   return (
     <>
@@ -12,6 +14,7 @@ function Contact() {
           </div>
         </div>
       </div>
+      <ContactMain />
     </>
   );
 }
