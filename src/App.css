@@ -2,6 +2,15 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 a {
   margin: 0px;
   padding: 0px;

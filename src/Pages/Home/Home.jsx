@@ -1,3 +1,4 @@
+import AboutMain from "../About/AboutMain";
 import "./home.css";
 
 function Home() {
@@ -33,6 +34,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <AboutMain />
     </>
   );
 }
