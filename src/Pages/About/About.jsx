@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import "./about.css";
 import AboutMain from "./AboutMain";
 function About() {
@@ -5,16 +6,19 @@ function About() {
     <>
       <div>
         <div className="about-img">
-          <div className="about-heading">
-            <div>
-              <b>ABOUT US</b>
-            </div>
+          <div className="overlay">
+            <div className="about-heading">
+              <div>
+                <b>ABOUT US</b>
+              </div>
 
-            <div>Home {">"} About US</div>
+              <div>Home {">"} About US</div>
+            </div>
           </div>
         </div>
       </div>
       <AboutMain />
+      <Footer />
     </>
   );
 }

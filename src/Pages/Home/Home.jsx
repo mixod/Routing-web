@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import AboutMain from "../About/AboutMain";
 import PortfolioMain from "../Portfolio/PortfolioMain";
 import "./home.css";
@@ -37,6 +38,7 @@ function Home() {
       </div>
       <AboutMain />
       <PortfolioMain />
+      <Footer />
     </>
   );
 }

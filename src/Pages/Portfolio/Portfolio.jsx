@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import PortfolioMain from "./PortfolioMain";
 
 function Portfolio() {
@@ -5,16 +6,19 @@ function Portfolio() {
     <>
       <div>
         <div className="about-img">
-          <div className="about-heading">
-            <div>
-              <b>Portfolio</b>
-            </div>
+          <div className="overlay">
+            <div className="about-heading">
+              <div>
+                <b>Portfolio</b>
+              </div>
 
-            <div>Home {">"} Portfolio</div>
+              <div>Home {">"} Portfolio</div>
+            </div>
           </div>
         </div>
       </div>
       <PortfolioMain />
+      <Footer />
     </>
   );
 }

@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import ContactMain from "./ContactMain";
 
 function Contact() {
@@ -5,16 +6,19 @@ function Contact() {
     <>
       <div>
         <div className="about-img">
-          <div className="about-heading">
-            <div>
-              <b>Contact Us</b>
-            </div>
+          <div className="overlay">
+            <div className="about-heading">
+              <div>
+                <b>Contact Us</b>
+              </div>
 
-            <div>Home {">"} Contact Us</div>
+              <div>Home {">"} Contact Us</div>
+            </div>
           </div>
         </div>
       </div>
       <ContactMain />
+      <Footer />
     </>
   );
 }

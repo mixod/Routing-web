@@ -2,17 +2,27 @@
   display: flex;
   flex-direction: column;
   padding: 53px;
-  color: #00ff53;
+  color: #ffffff;
   justify-content: center;
   align-items: center;
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 .about-img {
   background-image: url("public/image/header-bg-5.jpg");
   background-size: cover;
   background-position: center;
-  height: 11rem;
+  height: 15rem;
   margin-top: 6.5rem;
+}
+.overlay {
+  width: 100vw;
+  height: 100%;
+  background: rgb(5, 3, 38);
+  background: linear-gradient(
+    75deg,
+    rgba(26, 44, 121, 0.88) 10%,
+    rgb(13 25 80 / 80%)
+  );
 }
 .description {
   display: flex;

@@ -3,7 +3,7 @@
   grid-template-columns: 10% 80% 10%;
   height: 5rem;
   width: 100%;
-  box-shadow: 8px 6px 6px gray;
+  box-shadow: 8px 6px 6px #494949;
   background-color: #ffffff;
   position: fixed;
   top: 2.5rem;

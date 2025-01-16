@@ -3,13 +3,15 @@ function Service() {
     <>
       <div>
         <div className="about-img">
-          <div className="about-heading">
-            <div>
-              <b>Services</b>
-            </div>
+          <div className="overlay">
+            <div className="about-heading">
+              <div>
+                <b>Services</b>
+              </div>
 
-            <div>
-              Home {">"} Service {">"} Services
+              <div>
+                Home {">"} Service {">"} Services
+              </div>
             </div>
           </div>
         </div>
