@@ -17,7 +17,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-
+      <PortfolioMain />
       <Footer />
     </>
   );
