@@ -18,7 +18,6 @@ function Portfolio() {
         </div>
       </div>
       <PortfolioMain />
-      <Footer />
     </>
   );
 }
