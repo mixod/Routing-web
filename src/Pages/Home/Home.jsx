@@ -2,7 +2,7 @@ import Footer from "../../Components/Footer/Footer";
 import AboutMain from "../About/AboutMain";
 
 import ContactMain from "../Contact.jsx/ContactMain";
-import PortfolioMain from "../Portfolio/PortfolioMain";
+
 import "./home.css";
 
 function Home() {
@@ -39,7 +39,6 @@ function Home() {
         </div>
       </div>
       <AboutMain />
-      <PortfolioMain />
       <ContactMain />
       <Footer />
     </>
