@@ -1,3 +1,5 @@
+import ServiceMain from "./ServiceMain";
+
 function Service() {
   return (
     <>
@@ -16,6 +18,7 @@ function Service() {
           </div>
         </div>
       </div>
+      <ServiceMain />
     </>
   );
 }
