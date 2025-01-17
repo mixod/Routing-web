@@ -1,66 +1,49 @@
 import { useState } from "react";
 
 function ContactForm() {
-  const [name, setName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [gender, setGender] = useState("");
-  const [error, setError] = useState("");
-  function submit() {
-    if (name === "") {
-      setError("name is empty");
+  const [name, setName] = useState(" ");
+  const [gender, setGender] = useState(" ");
+  const [error, setError] = useState(" ");
+
+  const submit = () => {
+    if (name === " ") {
+      setError("!name empty");
       return;
     }
-    if (lastName === "") {
-      setError("last name is empty");
+    if (gender === " ") {
+      setError("!gender not selected");
       return;
     }
-    if (gender === "") {
-      setError("Gender is not selected");
-      return;
-    }
-    setError("");
-    console.log(name, lastName, gender);
-    setName("");
-    setGender("");
-    setLastName("");
-  }
+
+    console.log(name, gender);
+    setError(" ");
+    setName(" ");
+    setGender(" ");
+  };
   return (
     <>
       <div style={{ color: "red" }}>{error}</div>
       <label htmlFor="name">
         Name:
         <input
-          onChange={(e) => {
-            setName(e.target.value);
-          }}
+          type="text"
+          onChange={(e) => setName(e.target.value)}
           value={name}
-          name="name"
-          type="text"
-        />
+        ></input>
       </label>
-      <label htmlFor="lastName">
-        Last Name:
-        <input
-          onChange={(e) => {
-            setLastName(e.target.value);
-          }}
-          value={lastName}
-          name="lastName"
-          type="text"
-        />
-      </label>
+
       <select
-        onChange={(e) => {
-          setGender(e.target.value);
-        }}
+        type="radio"
+        onChange={(e) => setGender(e.target.value)}
         value={gender}
       >
-        <option value="">Select a value</option>
-        <option value="m">Male</option>
-        <option value="f">Female</option>
-        <option value="o">Others</option>
+        <option>Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
       </select>
-      <input type="submit" onClick={submit} />
+
+      <input type="submit" onClick={submit}></input>
     </>
   );
 }
