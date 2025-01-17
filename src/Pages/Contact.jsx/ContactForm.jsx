@@ -21,7 +21,7 @@ function ContactForm() {
     }
 
     setError("");
-    console.log(name);
+    console.log(name, email, message);
     setName("");
     setEmail("");
     setMessage("");
