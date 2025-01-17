@@ -18,8 +18,8 @@ function Contact() {
           </div>
         </div>
       </div>
-      <ContactForm />
       <ContactMain />
+      <ContactForm />
       <Footer />
     </>
   );

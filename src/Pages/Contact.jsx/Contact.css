@@ -42,11 +42,46 @@
   padding: 36px;
   border-radius: 1rem;
 }
-
+.name,
+.email,
+.message {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 30%;
+  background-color: rgb(246, 246, 246);
+  padding: 80px;
+}
+.main-form-section {
+  display: flex;
+  gap: 200px;
+  padding: 100px;
+}
+.contact-another-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 @media screen and (max-width: 997px) {
   .contact-info {
     display: flex;
     flex-direction: column;
     gap: 40px;
+  }
+  .main-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name,
+  .email,
+  .message {
+    padding: 10px;
   }
 }
