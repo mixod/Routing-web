@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import PortfolioMain from "./PortfolioMain";
 
 function Portfolio() {
@@ -17,6 +18,7 @@ function Portfolio() {
         </div>
       </div>
       <PortfolioMain />
+      <Footer />
     </>
   );
 }

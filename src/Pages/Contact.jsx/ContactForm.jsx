@@ -63,7 +63,9 @@ function ContactForm() {
             ></textarea>
           </div>
           <div>
-            <button onClick={submit}>Submit</button>
+            <button onClick={submit} className="submit-button">
+              Submit
+            </button>
           </div>
         </div>
         <div className="contact-another-section">

@@ -4,17 +4,17 @@ function RouteMain({ setContent }) {
   return (
     <div className="route">
       <ul>
-        <a href="#">
+        <a href="javascript:void(0)">
           <li onClick={() => setContent("Digital Marketing")}>
             Digital Marketting
           </li>
         </a>
-        <a href="#">
+        <a href="javascript:void(0)">
           <li onClick={() => setContent("Content Marketing")}>
             Content Marketting
           </li>
         </a>
-        <a href="#">
+        <a href="javascript:void(0)">
           <li onClick={() => setContent("SEO Services")}>Seo Service</li>
         </a>
       </ul>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import ContectMain from "./ContectMain";
 import RouteMain from "./route/RouteMain";
 import "./Portfolio.css";
-import Footer from "../../Components/Footer/Footer";
+
 function PortfolioMain() {
   const [content, setContent] = useState("Digital Marketing");
   return (
@@ -18,7 +18,6 @@ function PortfolioMain() {
       </div>
       <RouteMain setContent={setContent} />
       <ContectMain content={content} />
-      <Footer />
     </>
   );
 }
