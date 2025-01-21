@@ -1,7 +1,7 @@
 import React from "react";
 
-function () {
-  return <div></div>;
+function Desc() {
+  return <div>Desc</div>;
 }
 
-export default s;
+export default Desc;
