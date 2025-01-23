@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import Navigations from "./Components/Header/Navigation/Navigations";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Service from "./Pages/Servi/Service";
+import Desc from "./Pages/Servi/description/Desc";
 function App() {
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/service/:desc" element={<Service />} />
+          <Route path="/service/:desc" element={<Desc />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
