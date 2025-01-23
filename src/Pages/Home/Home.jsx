@@ -1,8 +1,6 @@
 import Footer from "../../Components/Footer/Footer";
 import AboutMain from "../About/AboutMain";
 
-import ContactMain from "../Contact.jsx/ContactMain";
-
 import PortfolioMain from "../Portfolio/PortfolioMain";
 import ServiceMain from "../Servi/ServiceMain";
 
@@ -44,7 +42,7 @@ function Home() {
       <AboutMain />
       <PortfolioMain />
       <ServiceMain />
-      <ContactMain />
+
       <Footer />
     </>
   );
