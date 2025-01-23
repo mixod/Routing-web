@@ -21,18 +21,20 @@
 
 import { data } from "../../assets/data";
 import { NavLink } from "react-router";
-
+import "./service.css";
 function ServiceMain() {
   return (
-    <ul>
+    <ul className="main-service">
       {data.map((item) => (
-        <li key={item.id}>
+        <li key={item.id} className="gap-for-images">
           <NavLink to={"/service/" + item.id}>
-            <div>
-              <img src={item.image} className="image-service"></img>
+            <div className="main-div-serivce-link">
+              <div>
+                <img src={item.image} className="image-service"></img>
+              </div>
+              <div>{item.name}</div>
+              <div>{item.description}</div>
             </div>
-            <div>{item.name}</div>
-            <div>{item.description}</div>
           </NavLink>
         </li>
       ))}

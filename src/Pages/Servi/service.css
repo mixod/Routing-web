@@ -1,5 +1,25 @@
 .image-service {
-  color: pink;
-  height: 10px;
-  width: 10px;
+  background-color: pink;
+  height: 50px;
+  width: 50px;
+  flex-wrap: wrap;
+}
+.main-div-serivce-link {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+  /* margin-bottom: 40px; */
+}
+.main-service {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  padding: 50px;
+  margin: 10px;
+  gap: 10px;
 }
