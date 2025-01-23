@@ -1,6 +1,7 @@
 import "./desc.css";
 import { data } from "../../../assets/data";
 import { useParams } from "react-router";
+import DescMain from "./DescMain";
 function Desc() {
   const params = useParams();
   if (isNaN(params.desc)) {
@@ -12,7 +13,22 @@ function Desc() {
     alert("there is no data in the array");
   }
 
-  return <div className="sangram"></div>;
+  return (
+    <div>
+      <div className="about-img">
+        <div className="overlay">
+          <div className="about-heading">
+            <div>
+              <b>Social Media</b>
+            </div>
+
+            <div>Home {">"} Social Media</div>
+          </div>
+        </div>
+      </div>
+      <DescMain />
+    </div>
+  );
 }
 
 export default Desc;

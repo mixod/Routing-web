@@ -1,3 +1,17 @@
-.sangram {
-  margin-top: 200px;
+.description-socil-media {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.Paragraph-service {
+  font-family: "Open Sans", sans-serif;
+  color: #707070;
+  line-height: 1.75;
 }
