@@ -2,6 +2,7 @@ import "./desc.css";
 import { CiLocationOn } from "react-icons/ci";
 import { CiMobile1 } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
+import Footer from "../../../Components/Footer/Footer";
 function DescMain() {
   return (
     <>
@@ -44,7 +45,7 @@ function DescMain() {
           </div>
         </div>
         <div className="service-social-media">
-          <div>
+          <div className="medias-name">
             <h2 style={{ color: "#162171" }}>All Services</h2>
             <ul>
               <li>Social Media Marketting</li>
@@ -57,7 +58,7 @@ function DescMain() {
               <li>Domain Register & Web Hosting</li>
             </ul>
           </div>
-          <div>
+          <div className="CONTACT-SERVICE">
             <h2 style={{ color: "#162171" }}>Need Help</h2>
             <p className="Paragraph">We are available 24/7</p>
             <ul>
@@ -77,6 +78,7 @@ function DescMain() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
