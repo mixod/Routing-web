@@ -32,3 +32,10 @@
     gap: 50px;
   }
 }
+.back-img-service {
+  background-image: url("public/image/serviceback-img.jpg");
+  background-size: cover;
+  height: 58rem;
+  background-repeat: no-repeat;
+  width: 100%;
+}

@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import ServiceMain from "./ServiceMain";
 
 function Service() {
@@ -19,6 +20,7 @@ function Service() {
         </div>
       </div>
       <ServiceMain />
+      <Footer />
     </>
   );
 }

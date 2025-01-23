@@ -22,26 +22,39 @@
 import { data } from "../../assets/data";
 import { NavLink } from "react-router";
 import "./service.css";
-import Footer from "../../Components/Footer/Footer";
+
 function ServiceMain() {
   return (
     <>
-      <ul className="main-service">
-        {data.map((item) => (
-          <li key={item.id} className="gap-for-images">
-            <NavLink to={"/service/" + item.id}>
-              <div className="main-div-serivce-link">
-                <div>
-                  <img src={item.image} className="image-service"></img>
+      <div className="back-img-service">
+        {" "}
+        <div className="port">
+          <div
+            style={{ color: "#00a0e8", fontWeight: "600", fontSize: "large" }}
+          >
+            Our Services
+          </div>
+          <div style={{ fontSize: "xx-large", color: "#162171" }}>
+            <b>What Can We Do For You</b>
+          </div>
+          <div className="line"></div>
+        </div>
+        <ul className="main-service">
+          {data.map((item) => (
+            <li key={item.id} className="gap-for-images">
+              <NavLink to={"/service/" + item.id}>
+                <div className="main-div-serivce-link">
+                  <div>
+                    <img src={item.image} className="image-service"></img>
+                  </div>
+                  <div>{item.name}</div>
+                  <div>{item.description}</div>
                 </div>
-                <div>{item.name}</div>
-                <div>{item.description}</div>
-              </div>
-            </NavLink>
-          </li>
-        ))}
-      </ul>
-      <Footer />
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 }

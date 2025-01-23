@@ -4,6 +4,7 @@ import AboutMain from "../About/AboutMain";
 import ContactMain from "../Contact.jsx/ContactMain";
 
 import PortfolioMain from "../Portfolio/PortfolioMain";
+import ServiceMain from "../Servi/ServiceMain";
 
 import "./home.css";
 
@@ -42,6 +43,7 @@ function Home() {
       </div>
       <AboutMain />
       <PortfolioMain />
+      <ServiceMain />
       <ContactMain />
       <Footer />
     </>
