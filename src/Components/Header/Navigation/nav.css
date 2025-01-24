@@ -41,6 +41,9 @@
   flex-direction: column;
   gap: 10px;
 }
+.mobile-nav-links.clicked {
+  display: none;
+}
 
 @media screen and (min-width: 997px) {
   .nav-links {

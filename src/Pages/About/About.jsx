@@ -1,6 +1,7 @@
 import Footer from "../../Components/Footer/Footer";
 import "./about.css";
 import AboutMain from "./AboutMain";
+
 function About() {
   return (
     <>
@@ -18,6 +19,7 @@ function About() {
         </div>
       </div>
       <AboutMain />
+
       <Footer />
     </>
   );
