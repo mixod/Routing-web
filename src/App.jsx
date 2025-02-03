@@ -8,10 +8,11 @@ import Navigations from "./Components/Header/Navigation/Navigations";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Service from "./Pages/Servi/Service";
 import Desc from "./Pages/Servi/description/Desc";
+
 function App() {
   return (
     <>
-      <div>
+      <div style={{ overflow: "hidden" }}>
         <Header />
         <Navigations />
         <Routes>

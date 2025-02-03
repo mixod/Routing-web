@@ -2,7 +2,7 @@ import "./about.css";
 function AboutMain() {
   return (
     <>
-      <div className="about-description-main">
+      <div data-aos="fade-right" className="about-description-main">
         <div className="description">
           <div style={{ color: "#00a0e8" }}>About Us</div>
           <div>
